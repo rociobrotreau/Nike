@@ -1,0 +1,112 @@
+*  {  margin: 0;
+    padding: 0;
+}   
+
+body { 
+ background-color: rgb(75, 73, 69);
+}
+
+.bodyindex { 
+ background-color: rgb(0, 0, 0);
+}
+
+.tituloindex { 
+ font-size: 50px;
+ font-family: 'Yuji Syuku', serif;
+ text-align: center;
+ color: white;
+}
+
+.parrafoindex { 
+ font-size: 40px;
+ font-family: 'Amatic SC', cursive;
+ font-family: 'Yuji Syuku', serif;
+ text-align: center;
+ color: white;
+}
+
+.ulindex   {         
+        text-align: center;
+}
+         
+.fieldsetindex {         
+    text-align: center;   
+    color: white;           
+    border-color: black;
+    margin-block: 100px;   
+}
+
+.headerindumentaria {         
+    text-align: center;    
+    font-family: 'Yuji Syuku', serif; 
+    font-size: 20px;         
+}
+
+.fotos {    
+  margin-top: 100px;   
+}
+
+
+.headeraccesorios  {         
+ text-align: center;    
+ font-family: 'Yuji Syuku', serif; 
+ font-size: 20px;         
+}
+
+.titulodevoluciones { 
+ font-size: 50px;
+ font-family: 'Yuji Syuku', serif;
+ text text-align: display: ;
+ color: white;
+ text-align: center;    
+}
+
+.pdevoluciones { 
+ font-size: 15px;
+ font-family: 'Amatic SC', cursive;
+ font-family: 'Yuji Syuku', serif;
+ margin-top: 50px;
+ text-align: center;
+}
+
+.titulozapashomb {         
+ text-align: center;    
+ font-family: 'Yuji Syuku', serif; 
+ font-size: 50px;         
+}
+
+.ulzapazhom {         
+ text-align: center;    
+ font-family: 'Yuji Syuku', serif; 
+ font-size: 15x;         
+}
+
+.titulozapasmuj {         
+ text-align: center;    
+ font-family: 'Yuji Syuku', serif; 
+ font-size: 50px;         
+}
+            
+.ulzapazmuj {         
+ text-align: center;    
+ font-family: 'Yuji Syuku', serif; 
+ font-size: 15x;         
+}
+
+footer{    
+    margin-top: 50px;   
+    text-align: center;
+    font-family: 'Yuji Syuku', serif;
+}
+
+nav ul li {    
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 7px;
+    margin: 0 7px;
+}   
+
+.headerdevolucion{    
+    text-align: center;
+}   
+
