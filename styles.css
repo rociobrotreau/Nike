@@ -32,10 +32,13 @@ body {
  color: white;
 }
 
-.ulindex   {         
+
+.ulindex {         
         text-align: center;
+       
 }
          
+
 .fieldsetindex {         
     text-align: center;   
     color: white;           
@@ -217,5 +220,6 @@ a {
      font-family: 'Amatic SC', cursive;
      font-family: 'Yuji Syuku', serif;
      text-align: center;  
+     color:blueviolet
     }
 }
