@@ -1,0 +1,31 @@
+.titulozapasmuj {         
+    text-align: center;    
+    font-family: 'Yuji Syuku', serif; 
+    font-size: $cincuentapixeles;        
+   }
+               
+   .ulzapazmuj {         
+    text-align: center;    
+    font-family: 'Yuji Syuku', serif; 
+    font-size: $quincepixeles;       
+   }
+   
+   
+   nav ul li {    
+       display: inline-block;
+       list-style-type: none;
+       padding: 0 7px;
+       margin: 0 7px;
+   }   
+   
+   a {    
+    color: rgb(185, 196, 204);
+}   
+
+.imagenespago img {    
+    height: $cincuentapixeles;
+    width: $cincuentapixeles;
+    margin-top: $veintepixeles;
+    margin-bottom: $veintepixeles;
+} 
+   

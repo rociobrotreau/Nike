@@ -1,0 +1,14 @@
+.headerindumentaria {         
+    text-align: center;    
+    font-family: 'Yuji Syuku', serif; 
+    font-size: $veintepixeles;       
+}
+
+.fotos {    
+  margin-top: $cienpixeles;  
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}

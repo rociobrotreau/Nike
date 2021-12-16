@@ -1,0 +1,40 @@
+
+@media only screen and (min-width: 320px) and (max-width: 736px) {  
+   
+    
+    .bodyindex { 
+        display: flex; 
+        background-color: rgb(7, 7, 7);      
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    
+   .imagenprincipalindex { 
+     align-items: center;
+     height: 300px;
+     width: 400px;
+     padding-top: 50px;
+     padding-bottom: 20px; 
+    }
+
+}
+
+    
+@media only screen and (min-width: 320px) and (max-width: 736px) { 
+
+    .titulodevoluciones { 
+     font-size: 50px;
+     font-family: 'Yuji Syuku', serif;
+     color: white;
+     text-align: center;    
+    }
+   
+    .pdevoluciones {     
+     font-size: 15px;
+     font-family: 'Amatic SC', cursive;
+     font-family: 'Yuji Syuku', serif;
+     text-align: center;  
+     color:blueviolet;
+    }
+}
