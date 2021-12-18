@@ -27,7 +27,8 @@ body {
     text-align: center;
     color: $colorblanco;
    }
-   
+
+    
    
    .ulindex {         
            text-align: center;
@@ -64,3 +65,20 @@ body {
       background-color: rgb(43, 42, 40);
        
    } 
+
+   @each $color in rgb(111, 170, 180), rgb(211, 155, 164),rgb(84, 146, 84)
+   .#{$color}{
+       color:# {$color};
+       }
+       
+}
+   $botones: (
+       comprar: rgb(111, 170, 180)
+       devolucion: rgb(211, 155, 164)
+       reclamo: rgb(84, 146, 84)
+   )
+
+   @each $bot, $color in $botones{
+       .btn-- #{$bot} {
+           background-color: $color;
+}

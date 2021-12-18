@@ -1,21 +1,25 @@
 .titulozapasmuj {         
     text-align: center;    
     font-family: 'Yuji Syuku', serif; 
-    font-size: $cincuentapixeles;        
+    font-size: 50px;        
    }
-               
+
    .ulzapazmuj {         
-    text-align: center;    
-    font-family: 'Yuji Syuku', serif; 
-    font-size: $quincepixeles;       
+    @extend .titulozapasmuj;
+    font-size: 15px;       
    }
+
+   @mixin ejemplo-de-mixin {   
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 7px;
+    margin: 0 7px;
+   
+}   
    
    
    nav ul li {    
-       display: inline-block;
-       list-style-type: none;
-       padding: 0 7px;
-       margin: 0 7px;
+       @include ejemplo-de-mixin;
    }   
    
    a {    
