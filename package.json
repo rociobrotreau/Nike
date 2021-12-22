@@ -1,0 +1,26 @@
+{
+  "name": "nike-proyecto---brotreau-rocio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilo.css",
+    "watch-css": "nodemon -e scss -x \"\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rociobrotreau/Nike.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rociobrotreau/Nike/issues"
+  },
+  "homepage": "https://github.com/rociobrotreau/Nike#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

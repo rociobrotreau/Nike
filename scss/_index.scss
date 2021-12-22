@@ -1,0 +1,84 @@
+*  {  margin: 0;
+    padding: 0;
+}   
+
+body { 
+ background-color: $colorgris;
+}
+.bodyindex { 
+    background-color: $colornegro;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 60% 40%
+   
+   }
+   
+   .tituloindex { 
+    font-size: $cincuentapixeles;
+    font-family: 'Yuji Syuku', serif;
+    text-align: center;
+    color: $colorblanco;
+   }
+   
+   .parrafoindex { 
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Yuji Syuku', serif;
+    text-align: center;
+    color: $colorblanco;
+   }
+
+    
+   
+   .ulindex {         
+           text-align: center;
+          
+   }
+            
+   
+   .fieldsetindex {         
+       text-align: center;   
+       color: $colorblanco;          
+       border-color: $colornegro;
+       margin-block: 100px;   
+   }
+   
+   .h4index {         
+       color: $colorblanco;          
+   }
+   
+      
+   .pindex {    color: rgb(94, 91, 91);
+       font-size: $veintepixeles;   
+       font-style: initial;
+       text-align: center;    
+   } 
+   
+   .flex-container {    
+       display: flex;
+       color: rgb(150, 142, 142);
+   } 
+   
+   .flex-container div {    
+      
+      border: 1px solid rgb(151, 146, 146);
+      background-color: rgb(43, 42, 40);
+       
+   } 
+
+   @each $color in rgb(111, 170, 180), rgb(211, 155, 164),rgb(84, 146, 84)
+   .#{$color}{
+       color:# {$color};
+       }
+       
+}
+   $botones: (
+       comprar: rgb(111, 170, 180)
+       devolucion: rgb(211, 155, 164)
+       reclamo: rgb(84, 146, 84)
+   )
+
+   @each $bot, $color in $botones{
+       .btn-- #{$bot} {
+           background-color: $color;
+}

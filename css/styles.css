@@ -1,0 +1,225 @@
+*  {  margin: 0;
+    padding: 0;
+}   
+
+.body { 
+ background-color: rgb(75, 73, 69);
+}
+
+
+/* Modificaciones a HTML index con GRID */
+
+.bodyindex { 
+ background-color: rgb(0, 0, 0);
+ display: grid;
+ grid-template-columns: 30% 70%;
+ grid-template-rows: 60% 40%
+
+}
+
+.tituloindex { 
+ font-size: 50px;
+ font-family: 'Yuji Syuku', serif;
+ text-align: center;
+ color: white;
+}
+
+.parrafoindex { 
+ font-size: 40px;
+ font-family: 'Amatic SC', cursive;
+ font-family: 'Yuji Syuku', serif;
+ text-align: center;
+ color: white;
+}
+
+
+.ulindex {         
+        text-align: center;
+       
+}
+         
+
+.fieldsetindex {         
+    text-align: center;   
+    color: white;           
+    border-color: black;
+    margin-block: 100px;   
+}
+
+.h4index {         
+    color: white;           
+}
+
+/* Aplicando FLEXBOX a Index - tabla de talles*/
+
+.pindex {    color: rgb(94, 91, 91);
+    font-size: 20px;    
+    font-style: initial;
+    text-align: center;    
+} 
+
+.flex-container {    
+    display: flex;
+    color: rgb(150, 142, 142);
+} 
+
+.flex-container div {    
+   
+   border: 1px solid rgb(151, 146, 146);
+   background-color: rgb(43, 42, 40);
+    
+} 
+
+/* Modificaciones a HTML indumentaria */
+
+.headerindumentaria {         
+    text-align: center;    
+    font-family: 'Yuji Syuku', serif; 
+    font-size: 20px;         
+}
+
+.fotos {    
+  margin-top: 100px;  
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+/* Modificaciones a HTML accesorios */
+
+.headeraccesorios  {         
+ text-align: center;    
+ font-family: 'Yuji Syuku', serif; 
+ font-size: 20px;         
+}
+
+/* Modificaciones a HTML devoluciones - GRID*/
+
+.titulodevoluciones { 
+ font-size: 50px;
+ font-family: 'Yuji Syuku', serif;
+ text text-align: display: ;
+ color: white;
+ text-align: center;    
+}
+
+.pdevoluciones { 
+    display: grid;
+     grid-template-columns: 35% 65%;
+  font-size: 15px;
+ font-family: 'Amatic SC', cursive;
+ font-family: 'Yuji Syuku', serif;
+ margin-top: 50px;
+}
+
+.pstrong  { 
+    text-align: center;
+ 
+}
+
+.headerdevolucion  { 
+    text-align: center;
+ 
+}
+ 
+
+/* Modificaciones a HTML zapatillashombre */
+
+.titulozapashomb {         
+ text-align: center;    
+ font-family: 'Yuji Syuku', serif; 
+ font-size: 50px;         
+}
+
+.ulzapazhom {         
+ text-align: center;    
+ font-family: 'Yuji Syuku', serif; 
+ font-size: 15x;         
+}
+
+/* Modificaciones a HTML zapatillasmujer */
+
+.titulozapasmuj {         
+ text-align: center;    
+ font-family: 'Yuji Syuku', serif; 
+ font-size: 50px;         
+}
+            
+.ulzapazmuj {         
+ text-align: center;    
+ font-family: 'Yuji Syuku', serif; 
+ font-size: 15x;         
+}
+
+
+nav ul li {    
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 7px;
+    margin: 0 7px;
+}   
+
+
+
+header {    
+    padding: 0 40px;
+    margin: 0 50px;
+    justify-content: space-evenly;
+    align-items: center;
+}   
+
+a {    
+    color: rgb(185, 196, 204);
+}   
+
+.imagenespago img {    
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+
+/* MEDIA QUERIES INDEX HTML */
+@media only screen and (min-width: 320px) and (max-width: 736px) {  
+   
+    
+    .bodyindex { 
+        display: flex; 
+        background-color: rgb(7, 7, 7);      
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    
+   .imagenprincipalindex { 
+     align-items: center;
+     height: 300px;
+     width: 400px;
+     padding-top: 50px;
+     padding-bottom: 20px; 
+    }
+
+}
+
+    
+/* MEDIA QUERIES DEVOLUCIONES HTML */
+
+@media only screen and (min-width: 320px) and (max-width: 736px) { 
+
+    .titulodevoluciones { 
+     font-size: 50px;
+     font-family: 'Yuji Syuku', serif;
+     color: white;
+     text-align: center;    
+    }
+   
+    .pdevoluciones {     
+     font-size: 15px;
+     font-family: 'Amatic SC', cursive;
+     font-family: 'Yuji Syuku', serif;
+     text-align: center;  
+     color:blueviolet
+    }
+}

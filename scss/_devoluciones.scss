@@ -1,0 +1,27 @@
+.titulodevoluciones { 
+    font-size: $cincuentapixeles;
+    font-family: 'Yuji Syuku', serif;
+    text-align: display;
+    color: $colorblanco;
+    text-align: center;    
+   }
+   
+   .pdevoluciones { 
+       display: grid;
+        grid-template-columns: 35% 65%;
+     font-size: $quincepixeles;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Yuji Syuku', serif;
+    margin-top: $cincuentapixeles;
+   }
+   
+   .pstrong  { 
+       text-align: center;
+    
+   }
+   
+   .headerdevolucion  { 
+       text-align: center;
+    
+   }
+    
