@@ -8,8 +8,8 @@ body {
 .bodyindex {
   background-color: black;
   display: grid;
-  grid-template-columns: 30% 70%;
-  grid-template-rows: 60% 40%; }
+}
+ 
 
 .tituloindex {
   font-size: 50px;
@@ -30,7 +30,7 @@ body {
 .fieldsetindex {
   text-align: center;
   color: white;
-  border-color: black;
+  border-color: #4b4945;;
   margin-block: 100px; }
 
 .h4index {
