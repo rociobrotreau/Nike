@@ -5,17 +5,31 @@
 body {
   background-color: #4b4945; }
 
+  .headerindex {
+    background-color: #fdfdfd; }
+
 .bodyindex {
   background-color: black;
-  display: grid;
+
 }
+
+.imagenesindex2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  margin-left: 70px;
+  margin-bottom: 50px;
+
+  
+}
+
  
 
 .tituloindex {
   font-size: 50px;
   font-family: 'Yuji Syuku', serif;
   text-align: center;
-  color: white; }
+  color: rgb(0, 0, 0); }
 
 .parrafoindex {
   font-size: 40px;
@@ -26,7 +40,7 @@ body {
 
 .ulindex {
   text-align: center; }
-
+  
 .fieldsetindex {
   text-align: center;
   color: white;
@@ -41,6 +55,7 @@ body {
   font-size: 20px;
   font-style: initial;
   text-align: center; }
+
 
 .flex-container {
   display: flex;
@@ -115,13 +130,26 @@ nav ul li {
   margin: 0 7px; }
 
 a {
-  color: #b9c4cc; }
+  color: #000000; }
 
 .imagenespago img {
   height: 50px;
   width: 50px;
   margin-top: 20px;
-  margin-bottom: 20px; }
+    margin-bottom: 20px; }
+
+    footer {    
+      background-color: white;
+  }  
+
+  .newin {    
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(134, 49, 64);    
+    background-color: rgb(241, 237, 237);
+ } 
+
+
 
 @media only screen and (min-width: 320px) and (max-width: 736px) {
   .bodyindex {
@@ -129,6 +157,7 @@ a {
     background-color: #070707;
     flex-direction: column;
     align-items: center; }
+    
   .imagenprincipalindex {
     align-items: center;
     height: 300px;
