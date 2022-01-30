@@ -5,14 +5,13 @@
 body {
   background-color: #4b4945; }
 
-  .headerindex {
-    background-color: #fdfdfd; }
 
 .bodyindex {
   background-color: black;
   align-items: center;
 
 }
+
 
 .imagenesindex2 {
   display: flex;
@@ -64,10 +63,7 @@ body {
   border: 1px solid #979292;
   background-color: #2b2a28; }
 
-.headerindumentaria {
-  text-align: center;
-  font-family: 'Yuji Syuku', serif;
-  font-size: 20px; }
+
 
 .fotos {
   margin-top: 100px;
@@ -84,10 +80,7 @@ body {
     align-items: baseline; }
   
 
-.headeraccesorios {
-  text-align: center;
-  font-family: 'Yuji Syuku', serif;
-  font-size: 20px; }
+
 
 .titulodevoluciones {
   font-size: 50px;
@@ -96,19 +89,10 @@ body {
   color: white;
   text-align: center; }
 
-.pdevoluciones {
-  display: grid;
-  grid-template-columns: 35% 65%;
-  font-size: 15px;
-  font-family: 'Amatic SC', cursive;
-  font-family: 'Yuji Syuku', serif;
-  margin-top: 50px; }
 
 .pstrong {
   text-align: center; }
 
-.headerdevolucion {
-  text-align: center; }
 
 .titulozapashomb {
   text-align: center;
@@ -147,6 +131,11 @@ a {
 
     footer {    
       background-color: white;
+      font-family: 'Yuji Syuku', serif;
+  font-size: 20px;
+  text-align: center;
+
+
   }  
 
   .newin {    
@@ -156,6 +145,11 @@ a {
     background-color: rgb(241, 237, 237);
  } 
 
+ header {
+  background-color: #fdfdfd;
+  text-align: center;
+  font-family: 'Yuji Syuku', serif;
+  font-size: 20px; }
 
 
  @media only screen and (min-width: 320px) and (max-width: 736px) {
@@ -163,7 +157,8 @@ a {
     display: flex;
     background-color: #070707;
     flex-direction: column;
-    align-items: center; }
+    align-items: center; 
+   }
 
     .imagenprincipalindex {
       align-items: center;
@@ -171,8 +166,7 @@ a {
       width: 10px;
       padding-top: 50px;
       padding-bottom: 20px; } 
-    
-  }
+    }
 
   .parrafoindex2 {
     font-size: 15px;
