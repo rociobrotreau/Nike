@@ -79,7 +79,14 @@ body {
     margin-bottom: 15px;
     align-items: baseline; }
   
-
+    .pdevoluciones {
+      display: grid;
+      grid-template-columns: 35% 65%;
+      font-size: 15px;
+      font-family: 'Amatic SC', cursive;
+      font-family: 'Yuji Syuku', serif;
+      margin-top: 50px; }
+    
 
 
 .titulodevoluciones {
